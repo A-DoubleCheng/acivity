@@ -15,7 +15,7 @@
     <div class="title"></div>
 </div>
 <div class="today">
-    <h2>测你个鬼啊，变态</h2>
+    <h2>热特引入</h2>
     <strong data-val="${nowprice!}"></strong>
 </div>
 <#if flag == 'false'>
