@@ -1,0 +1,88 @@
+/* Name : ProjectName */
+/* DataTime : 2016-10-8 10:31 */
+
+/* INIT */
+html,body {height: 100%;}
+body {font:12px Arial,"Microsoft Yahei",sans-serif; color:#333;-webkit-text-size-adjust: 100%;background:#000;}
+body,form,menu,dir,fieldset,blockquote,p,pre,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6 { padding:0; margin:0;line-height: 1;}
+ul,ol,dl { list-style:none;}
+a {color: #333;text-decoration: none;}
+a:hover {color: #000;text-decoration: none;}
+a:link {text-decoration: none;}
+a:-webkit-any-link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a img {border: none;}
+.clear {clear: both;line-height: 0px;height:0px;font-size:0px;}
+.content {width:1200px;margin:0 auto;}
+.left {float:left;}
+.right {float:right;}
+.hide {display:none;}
+
+a,button,input,textarea{-webkit-tap-highlight-color:rgba(0,0,0,0);box-sizing: border-box;outline:0 none !important; -webkit-appearance: none !important;border-radius: 0;}
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+
+/* STYLE */
+
+.main {width:1024px;height:768px;position:relative;background:#32353e;overflow:hidden;}
+
+
+.main_ad {position:absolute;z-index:100;top:0px;left:0px;bottom:0px;background:#32353e;width:100%;color:#fff;text-align:center;padding-top:50px;
+	box-shadow: 0px 15px 30px rgba(0,0,0,1);
+	-webkit-transition: all .8s linear;
+    transition: all .8s linear;
+}
+.main_ad h2 {font-size:24px;font-weight:normal;}
+.main_ad h2 strong {color:#face37;padding-left:10px;}
+.main_ad h3 {font-size:30px;margin-top:15px;}
+.main_ad img {vertical-align:bottom;margin:50px 0;}
+.main_ad p {line-height:2;font-size:17px;}
+
+
+
+.title {text-align:center;color:#fff;padding-top:40px;}
+.title h2 strong {display:inline-block;font-size:24px;color:#fff;background:#2b888d;height:50px;line-height:50px;padding:0 60px;font-weight:normal;border-radius:20px 0 20px 0;}
+.title h3 {margin-top:40px;font-weight:normal;}
+.title h3 span {display:inline-block;vertical-align:middle;font-size:21px;margin-right:20px;}
+.title h3 strong {font-weight:normal;display:inline-block;vertical-align:middle;}
+.title h3 strong em {font-size:40px;display:inline-block;width:43px;height:60px;line-height:60px;font-style:normal;background:#2b888d;color:#fff;margin:0 3px;border-radius: 5px;
+	text-shadow: #000 1px 1px 0;
+	background: -webkit-linear-gradient(top, #2b888d 0%,#2b888d 50%,#1b6266 50%,#1b6266 100%);
+}
+.title h3 em {font-size:16px;margin-left:10px;font-style:normal;}
+
+.chartbox {color:#fff;padding:0 40px;margin-top:60px;}
+.chartbox .name {float:left;text-align:right;width:200px;border-right:1px solid #fff;padding-right:40px;position:relative;}
+.chartbox .name strong {position:absolute;top:-30px;right:40px;border:1px solid #999;color:#999;border-radius:5px;padding:5px 10px;font-weight:normal;font-size:17px;}
+.chartbox .name li {font-size:21px;padding:10px 0;height:60px;line-height:40px;}
+
+.chartbox .chart {float:right;width:744px;}
+.chartbox .chart li {padding:10px 0;height:60px;}
+.chartbox .chart li div {height:40px;width:0px;background:#999;position:relative;border-radius:0 5px 5px 0;
+	background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-size: 40px 40px;
+	animation: progress-bar-stripes 2s linear infinite;
+	-webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+@keyframes progress-bar-stripes {
+	from {background-position: 0 40px;}
+	to {background-position: 0 0;}
+}
+.chartbox .chart li div span {position:absolute;right:-100px;width:80px;line-height:40px;text-align:left;font-size:14px;color:#fff;}
+.chartbox .chart li div span strong {font-size:21px;margin-right:5px;}
+
+.chartbox .chart li.c1 div {background-color:#20c2a3;}
+.chartbox .chart li.c2 div {background-color:#4099d5;}
+.chartbox .chart li.c3 div {background-color:#a854cd;}
+.chartbox .chart li.c4 div {background-color:#e87c24;}
+.chartbox .chart li.c5 div {background-color:#89a9c4;}
+
+.chartbox .chart li.c1 div span strong {color:#20c2a3;}
+.chartbox .chart li.c2 div span strong {color:#4099d5;}
+.chartbox .chart li.c3 div span strong {color:#a854cd;}
+.chartbox .chart li.c4 div span strong {color:#e87c24;}
+.chartbox .chart li.c5 div span strong {color:#89a9c4;}
+
+
+
+
+
