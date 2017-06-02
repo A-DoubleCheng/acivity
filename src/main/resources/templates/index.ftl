@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="format-detection" content="telephone=no" />
-    <title>（2017年6月2日09:26:10）</title>
+    <title>（Jenkins测试成功）</title>
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/jquery1.11.1.min.js"></script>
     <script type="text/javascript" src="js/layer_mobile/layer.js"></script>
@@ -15,7 +15,7 @@
     <div class="title"></div>
 </div>
 <div class="today">
-    <h2>2017年6月2日08:50:21</h2>
+    <h2>在github上测试成功</h2>
     <strong data-val="${nowprice!}"></strong>
 </div>
 <#if flag == 'false'>
