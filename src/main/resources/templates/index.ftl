@@ -15,7 +15,7 @@
     <div class="title"></div>
 </div>
 <div class="today">
-    <h2>热特引入</h2>
+    <h2>2017年6月2日08:50:21</h2>
     <strong data-val="${nowprice!}"></strong>
 </div>
 <#if flag == 'false'>
